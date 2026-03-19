@@ -1,7 +1,7 @@
 import requests
 
 def analyze_data(sector, data):
-    API_KEY = "AIzaSyCn7bNZatp3a6ZG1wDXg17NaP4dO4kA3QU"
+    API_KEY = ""
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
 
